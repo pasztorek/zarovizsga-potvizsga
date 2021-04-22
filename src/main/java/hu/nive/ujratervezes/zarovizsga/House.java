@@ -2,8 +2,8 @@ package hu.nive.ujratervezes.zarovizsga;
 
 public class House implements Cleanable{
 
-    String adderess;
-    int quadratm;
+    private String adderess;
+    private int quadratm;
 
 
     public House(String adderess, int quadratm) {

@@ -2,9 +2,9 @@ package hu.nive.ujratervezes.zarovizsga;
 
 public class Office implements Cleanable {
 
-    String adderess;
-    int quadratm;
-    int levels;
+    private String adderess;
+    private int quadratm;
+    private int levels;
 
     public Office(String adderess, int quadratm, int levels) {
         this.adderess = adderess;
